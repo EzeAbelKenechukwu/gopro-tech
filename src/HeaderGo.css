@@ -492,6 +492,14 @@ h2{
   text-align: center;
   color: #fff;
 }
+.text-3{
+  background-image: url(./image/img-2.jpg);
+  padding-bottom: 3px;
+  font-size: 16px;
+  font-weight: bold;
+  text-align: center;
+  color: #fff;
+}
 .text p{
   margin-bottom: 10px;
 }
@@ -763,6 +771,12 @@ footer .copyright{
   transform: scale(1.1);
   transition: 0.3s;
 }
+.menu-icon{
+  display: none;
+  font-size: 28px;
+  cursor: pointer;
+  color: #368CA7;
+}
 
 @keyframes bounce {
   0%,
@@ -795,16 +809,49 @@ footer .copyright{
     padding: 15px;
   }
 
+ @media (max-width: 768px){
+
+  .gopro{
+    flex-direction: row;
+    justify-content: space-between;
+    align-items: center;
+    padding: 15px 20px;
+    position: relative;
+  }
+
+  .gopro img{
+    width: 70px;
+  }
+
+  .menu-icon{
+    display: block;
+  }
+
   .Navbar{
-    flex-wrap: wrap;
-    justify-content: center;
-    gap: 15px;
-    margin-top: 10px;
+    position: absolute;
+    top: 100%;
+    left: -100%;
+    width: 100%;
+    background: #e3e6f3;
+    flex-direction: column;
+    text-align: center;
+    padding: 20px 0;
+    transition: 0.4s ease;
+    box-shadow: 0 5px 15px rgba(0,0,0,0.1);
+  }
+
+  .Navbar.active{
+    left: 0;
+  }
+
+  .Navbar li{
+    padding: 15px 0;
   }
 
   .Navbar li a{
-    font-size: 16px;
+    font-size: 18px;
   }
+}
 
   .gopro img{
     width: 70px;

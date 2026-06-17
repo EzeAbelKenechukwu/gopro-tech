@@ -1,6 +1,8 @@
 
 import img2 from "./image/img-3.jpg";
 import img4 from "./image/img-4.jpg";
+import img3 from "./image/img-3.jpg";
+import img6 from "./image/img-6.jpg";
 
 
 
@@ -85,7 +87,7 @@ export const Home = () => {
       </div>
       <div className="rate-container">
         <div>
-         <img src={img2} alt="GoPro" />
+         <img src={img4} alt="GoPro" />
           <ul>
            <i className="bi bi-star-fill"></i>
            <i className="bi bi-star-fill"></i>
@@ -112,7 +114,7 @@ export const Home = () => {
           </p>
         </div>
         <div>
-         <img src={img4} alt="GoPro" />
+         <img src={img6} alt="GoPro" />
           <ul>
           <i className="bi bi-star-fill"></i>
            <i className="bi bi-star-fill"></i>
@@ -122,7 +124,7 @@ export const Home = () => {
           </ul>
          <p>"Joinimg the GoPro Tech community was one of the best decisions i  made. The suppot, mentorship, and learning resources have greatlty improved my development journey</p> 
           <p>
-           By <strong>Mich</strong>
+           By <strong>DI</strong>
             
           </p>
           
