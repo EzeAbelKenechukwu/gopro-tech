@@ -774,3 +774,210 @@ footer .copyright{
     transform: translateY(-10px);
   }
 }
+
+
+
+
+/* ==========================
+   MOBILE RESPONSIVE DESIGN
+   ========================== */
+
+@media (max-width: 768px){
+
+  .whole{
+    padding: 10px;
+  }
+
+  /* Header */
+  .gopro{
+    flex-direction: column;
+    align-items: center;
+    padding: 15px;
+  }
+
+  .Navbar{
+    flex-wrap: wrap;
+    justify-content: center;
+    gap: 15px;
+    margin-top: 10px;
+  }
+
+  .Navbar li a{
+    font-size: 16px;
+  }
+
+  .gopro img{
+    width: 70px;
+  }
+
+  /* Home Hero */
+  .container{
+    flex-direction: column;
+    text-align: center;
+    padding: 30px 15px;
+    font-size: 18px;
+  }
+
+  .container img{
+    width: 100%;
+    max-width: 300px;
+    margin-top: 20px;
+  }
+
+  .container h1{
+    font-size: 35px;
+  }
+
+  .container h2{
+    font-size: 22px;
+  }
+
+  /* Join Community */
+  .choose-1{
+    flex-direction: column;
+  }
+
+  .choose-1 div{
+    width: 100%;
+    max-width: 350px;
+    height: auto;
+    margin: 10px auto;
+  }
+
+  /* Why Choose Us */
+  .choose{
+    flex-direction: column;
+  }
+
+  .choose div{
+    width: 100%;
+    height: auto;
+  }
+
+  /* Testimonials */
+  .rate-container{
+    flex-direction: column;
+    gap: 20px;
+  }
+
+  .rate-container div{
+    width: 100%;
+    max-width: 350px;
+    min-height: auto;
+  }
+
+  .rate-container img{
+    width: 100%;
+    margin: 0;
+    height: 200px;
+  }
+
+  /* Ready Section */
+  .ready{
+    padding: 60px 15px;
+  }
+
+  .ready-link{
+    flex-direction: column;
+    align-items: center;
+  }
+
+  /* About */
+  .pic{
+    flex-direction: column;
+    padding: 20px;
+    text-align: center;
+  }
+
+  .pic img{
+    width: 100%;
+    max-width: 350px;
+  }
+
+  .pic-dev{
+    left: 0;
+    margin-top: 20px;
+  }
+
+  .Rev{
+    padding: 70px 20px;
+  }
+
+  .excel{
+    flex-direction: column;
+    align-items: center;
+  }
+
+  .excel div{
+    width: 90%;
+    height: auto;
+  }
+
+  .card-ocontiner{
+    flex-direction: column;
+  }
+
+  .text,
+  .text-1,
+  .text-2,
+  .text-3{
+    width: 100%;
+    max-width: 320px;
+  }
+
+  /* Services */
+  .serve{
+    padding: 40px 15px;
+  }
+
+  .check{
+    width: 100%;
+  }
+
+  .check button{
+    width: 100%;
+  }
+
+  /* Contact */
+  .emergency-contact{
+    flex-direction: column;
+    gap: 20px;
+  }
+
+  .form-details form{
+    width: 95%;
+    margin: auto;
+  }
+
+  .form-details form input,
+  .form-details form textarea{
+    width: 90%;
+  }
+
+  /* Footer */
+  footer{
+    flex-direction: column;
+    padding: 30px 15px;
+  }
+
+  footer .col,
+  footer .follow{
+    width: 100%;
+    padding: 10px 0;
+  }
+
+  .copyright{
+    margin-top: 20px;
+  }
+
+  /* WhatsApp */
+  .chat-text{
+    display: none;
+  }
+
+  .whatsapp-btn{
+    width: 55px;
+    height: 55px;
+    font-size: 30px;
+  }
+}
