@@ -9,6 +9,8 @@
  justify-content: space-between;
  padding: 8px 80px;
  background: #e3e6f3;box-shadow: 0 5px 15px rgba(0, 0, 0, 0.06);
+  align-items: center;
+  padding: 15px 40px;
  z-index: 999;
  position: sticky;
  top: 0;
@@ -58,6 +60,54 @@
   position: absolute;
   bottom: -4px;
   left: 20px;
+}
+.Navbar button{
+  padding: 5px 15px;
+  border: none;
+  border-radius: 6px;
+  background-color: #368CA7;
+  color: #fff;
+  font-size: 20px;
+  font-weight: 600px;
+  margin: 5px;
+}
+/* Menu Button */
+
+.menu-btn {
+  font-size: 35px;
+  background: transparent;
+  border: none;
+  cursor: pointer;
+}
+
+/* Mobile Menu */
+
+.mobileNavbar {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  gap: 20px;
+  margin-top: 20px;
+}
+
+.mobileNavbar li {
+  list-style: none;
+}
+
+.mobileNavbar li a {
+  text-decoration: none;
+  font-size: 25px;
+  color: #368CA7;
+  font-weight: bold;
+}
+
+.mobileNavbar button {
+  padding: 8px 20px;
+  border: none;
+  border-radius: 6px;
+  background: #368CA7;
+  color: white;
+  font-size: 18px;
 }
 /*  END HEADER */
 
