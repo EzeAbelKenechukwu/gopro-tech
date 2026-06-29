@@ -7,6 +7,10 @@ export const Header = () => {
   const [isMobile, setIsMobile] = useState(false);
   const [isOpen, setIsOpen] = useState(false);
 
+  const closeMenu = () => {
+  setIsOpen(false);
+  };
+
   useEffect(() => {
     const handleResize = () => {
       setIsMobile(window.innerWidth <= 768);
@@ -28,10 +32,10 @@ export const Header = () => {
       {/* Desktop Navbar */}
       {!isMobile && (
         <ul className="Navbar">
-          <li><Link to="/">Home</Link></li>
-          <li><Link to="/about">About</Link></li>
-          <li><Link to="/service">Service</Link></li>
-          <li><Link to="/contact">Contact</Link></li>
+          <li><Link to="/" onClick={closeMenu}>Home</Link></li>
+          <li><Link to="/about" onClick={closeMenu}>About</Link></li>
+          <li><Link to="/service" onClick={closeMenu}>Service</Link></li>
+          <li><Link to="/contact" onClick={closeMenu}>Contact</Link></li>
           <button>Login</button>
         </ul>
       )}

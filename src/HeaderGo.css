@@ -5,19 +5,19 @@
   font-family: "Minion Variable Concept", serif;
 }
 .gopro{
- display: flex;
- justify-content: space-between;
- padding: 8px 80px;
- background: #e3e6f3;box-shadow: 0 5px 15px rgba(0, 0, 0, 0.06);
+  display: flex;
+  justify-content: space-between;
+  padding: px;
+  background: #e3e6f3;box-shadow: 0 5px 15px rgba(0, 0, 0, 0.06);
   align-items: center;
-  padding: 15px 40px;
- z-index: 999;
- position: sticky;
- top: 0;
- left: 0;
+  padding: 8px 40px;
+  z-index: 999;
+  position: sticky;
+  top: 0;
+  left: 0;
 }
 .gopro img{
-  width: 100px;
+  width: 70px;
   border-radius: 50px;
 }
 .gopro h2 {
@@ -69,12 +69,11 @@
   color: #fff;
   font-size: 20px;
   font-weight: 600px;
-  margin: 5px;
 }
 /* Menu Button */
 
 .menu-btn {
-  font-size: 35px;
+  font-size: 30px;
   background: transparent;
   border: none;
   cursor: pointer;
@@ -85,9 +84,6 @@
 .mobileNavbar {
   display: flex;
   flex-direction: column;
-  align-items: center;
-  gap: 20px;
-  margin-top: 20px;
 }
 
 .mobileNavbar li {
@@ -102,7 +98,6 @@
 }
 
 .mobileNavbar button {
-  padding: 8px 20px;
   border: none;
   border-radius: 6px;
   background: #368CA7;
