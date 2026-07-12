@@ -1,7 +1,7 @@
 import { Link } from "react-router-dom";
 import { useEffect, useState } from "react";
-import imgg from "./image/img-g.jpg";
-import "./HeaderGo.css";
+import imgg from "./image/img-g.jpeg";
+import "./header.css";
 
 export const Header = () => {
   const [isMobile, setIsMobile] = useState(false);
@@ -27,7 +27,9 @@ export const Header = () => {
 
   return (
     <div className="gopro">
-      <img src={imgg} alt="GoPro" />
+      <Link to="/" className="brand-link">
+        <img src={imgg} alt="GoProTech logo" className="brand-logo" />
+      </Link>
 
       {/* Desktop Navbar */}
       {!isMobile && (

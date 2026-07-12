@@ -1,6 +1,8 @@
 
 
 import { Link } from "react-router-dom";
+import "./service.css";
+
 export const Service = () => {
   return (
     <div className="">
@@ -192,82 +194,55 @@ export const Service = () => {
       
 
   
-      <footer >
+      <footer className="site-footer">
         <div className="col">
           <h2>GoproTech</h2>
-          <p>We coonect with other techies world wide</p>
-          <p>To learn more and resolve issues</p>
+          <p>We connect learners, founders, and teams with practical tech education and digital solutions.</p>
+          <p>Build your next skill with confidence.</p>
         </div>
 
-         <div className="col">
-         <h2>About</h2>
-         <a href="#">Our Mission/Vision</a>
-         <a href="#">Delivery Information</a>
-         <a href="#">Privacy Policy</a>
-         <a href="#">Terms & Condintions</a>
-         <a href="#">Contact us</a>
-         <a href="#">Learning Programs</a>
-         <a href="#">Creer Opportunities</a>
+        <div className="col">
+          <h2>About</h2>
+          <Link to="/about">About us</Link>
+          <a href="#">Delivery Information</a>
+          <a href="#">Privacy Policy</a>
+          <a href="#">Terms & Condintions</a>
+          <Link to="/service">Our Programs</Link>
+          <Link to="/contact">Contact us</Link>
         </div>
 
-        <div className="follow">
-          <h2>follow us</h2>
-          <a
-            href="https:/web.facebook.com/profile.php?id=61567600501806"
-            target="_blank"
-            rel="noopener noreferrer"
-           >
-            <i className="bi bi-facebook"></i>
+        <div className="col">
+          <h2>Follow us</h2>
+          <a href="https://web.facebook.com/profile.php?id=61567600501806" target="_blank" rel="noopener noreferrer">
+            <i className="bi bi-facebook"> Gopro</i>
+          </a>
+          <a href="https://wa.me/2348108659756" target="_blank" rel="noopener noreferrer">
+            <i className="bi bi-whatsapp"> GoproTech</i>
+          </a>
+           <a href="https://x.com/yourusername" target="_blank" rel="noopener noreferrer">
+            <i className="bi bi-twitter-x"> GoproTech</i>
           </a>
 
-          <a
-            href="https://wa.me/2348108659756"
-            target="_blank"
-            rel="noopener noreferrer"
-           >
-            <i className="bi bi-whatsapp"></i>
+          <a href="https://tiktok.com/@yourusername" target="_blank" rel="noopener noreferrer">
+            <i className="bi bi-tiktok"> Gopro</i>
           </a>
-
-          <a
-            href="https://x.com/yourusername"
-            target="_blank"
-            rel="noopener noreferrer"
-           >
-           <i className="bi bi-twitter-x"></i>
+          <a href="https://www.linkedin.com/company/goprotech-limited/?viewAsMember=true" target="_blank" rel="noopener noreferrer">
+            <i className="bi bi-linkedin"> GoproTech</i>
           </a>
-
-          <a
-            href="https://tiktok.com/gopro"
-            target="_blank"
-            rel="noopener noreferrer"
-           >
-           <i className="bi bi-tiktok"></i>
-          </a>
-          
-          <a
-            href="https://www.linkedin.com/company/goprotech-limited/?viewAsMember=true"
-            target="_blank"
-            rel="noopener noreferrer"
-           >
-            <i className="bi bi-linkedin"></i>
-          </a>
-        
-          <p>Stay updated with the GoproTech technology</p>
-          <p>innovations and solution</p>
+          <p>Stay updated with the latest</p>
+          <p>GoProTech innovations and solutions.</p>
         </div>
 
         <div className="col">
           <h2>Contact</h2>
-          <p>contact: Enugu Nigeria</p>
-          <p>Phone: +123 8108659756 /(or) +123 7010323003</p>
-          <p>info@goprotech.com</p>
-          goprotech.com
-          <p>Hours:10:00 - 18:00, Mon - Sat</p>
+          <p><strong>Address:</strong> 562 Eha-lumona Road, Street 32, Agbamere</p>
+          <p><strong>Phone:</strong> +234 8108659756 / +234 7010323003</p>
+          <p><strong>Hours:</strong> 10:00 - 18:00, Mon - Sat</p>
         </div>
 
         <div className="copyright">
-          <p>GOPRO-TECH</p>
-         <p>@ 2026, GOPRO-TECH | LEARN * BUILD * INNOVATION</p>
+          <p>Gopro-tech</p>
+          <p>@ 2026, GOPRO-TECH | LEARN * BUILD * INNOVATION</p>
         </div>
       </footer>
 

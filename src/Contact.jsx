@@ -1,127 +1,100 @@
 
+import "./contact.css";
+import { Link } from "react-router-dom";
 
 export const Contact = () => {
   return (
-    <div className="whole">
-      
-      <div className="contact">
-        <h1>Get in Touch</h1>
-        <h5>We'd love to hear from you! Whether you have questions about our courses, services, or partnerships, feel free to contact us.</h5>
-      </div>
-        <div className="emergency">
-          <h1> <i className="bi bi-telephone-plus"></i>Emergency Contcts</h1>
-          <div className="emergency-contact">
-            <div>
-             <h4> <i className="bi bi-threads-fill"></i> Address</h4>
-             <h4>Enugu Nigeria</h4>
-            </div>
-
-            <div>
-             <h4> <i className="bi bi-telephone-plus"></i> Phone</h4>
-             <h4> +234 8108659756</h4>
-             <h4>OR +234 7010323003</h4>
-            </div>
-
-            <div>
-             <h4> <i className="bi bi-info-square"></i> Info</h4>
-             <h4> info@goprotech.com</h4>
-            </div>
-
-            <div>
-              <h4> <i className="bi bi-globe2"></i> Website</h4>
-              <h4>www.goprotech.com</h4>
-            </div>
-
-          </div>
+    <div className="contact-page page-shell">
+      <section className="contact-hero">
+        <div className="contact-hero-copy">
+          <span className="section-label">Contact Us</span>
+          <h1>Let’s start a conversation about your next step.</h1>
+          <p>
+            Whether you want to enroll in a program, ask about our services, or discuss a partnership,
+            our team is ready to help.
+          </p>
         </div>
-      
-        
-      <div className="form-details">
-        <form action="">
-          <span>LEAVE A MESSAGE</span>
-          <h2>we love to hear from you</h2>
-          <input type="text" placeholder="Your Name"/>
-          <input type="text" placeholder="E-mail"/>
-          <input type="text" placeholder="Subject"/>
-          <textarea name="" id="" cols="30" rows="10" placeholder="Your Message"></textarea>
-          <button className="normal">submit</button>
+        <div className="contact-hero-card">
+          <h3>Office hours</h3>
+          <p>Monday - Saturday</p>
+          <p>10:00 AM - 6:00 PM</p>
+          <p>Enugu, Nigeria</p>
+        </div>
+      </section>
+
+      <section className="contact-layout">
+        <div className="contact-card">
+          <h2>Reach us directly</h2>
+          <ul>
+            <li><i className="bi bi-telephone-plus"></i> +234 8108659756</li>
+            <li><i className="bi bi-telephone-plus"></i> +234 7010323003</li>
+            <li><i className="bi bi-envelope"></i> info@goprotech.com</li>
+            <li><i className="bi bi-geo-alt"></i> 562 Eha-lumona Road, Agbamere, Enugu</li>
+          </ul>
+        </div>
+
+        <form className="contact-form">
+          <span className="section-label">Leave a message</span>
+          <h2>We would love to hear from you</h2>
+          <input type="text" placeholder="Your Name" />
+          <input type="email" placeholder="Email Address" />
+          <input type="text" placeholder="Subject" />
+          <textarea rows="6" placeholder="How can we help?"></textarea>
+          <button type="submit">Send Message</button>
         </form>
-        
-      </div>
-         <footer >
+      </section>
+
+      <footer className="site-footer">
         <div className="col">
           <h2>GoproTech</h2>
-          <p>We coonect with other techies world wide</p>
-          <p>To learn more and resolve issues</p>
+          <p>We connect learners, founders, and teams with practical tech education and digital solutions.</p>
+          <p>Build your next skill with confidence.</p>
         </div>
 
-         <div className="col">
-         <h2>About</h2>
-         <a href="#">About us</a>
-         <a href="#">Delivery Information</a>
-         <a href="#">Privacy Policy</a>
-         <a href="#">Terms & Condintions</a>
-         <a href="#">Contact us</a>
+        <div className="col">
+          <h2>About</h2>
+          <Link to="/about">About us</Link>
+          <a href="#">Delivery Information</a>
+          <a href="#">Privacy Policy</a>
+          <a href="#">Terms & Condintions</a>
+          <Link to="/service">Our Programs</Link>
+          <Link to="/contact">Contact us</Link>
         </div>
 
-        <div className="follow">
-          <h2>follow us</h2>
-          <a
-            href="https:/web.facebook.com/profile.php?id=61567600501806"
-            target="_blank"
-            rel="noopener noreferrer"
-           >
-            <i className="bi bi-facebook"></i>
+        <div className="col">
+          <h2>Follow us</h2>
+          <a href="https://web.facebook.com/profile.php?id=61567600501806" target="_blank" rel="noopener noreferrer">
+            <i className="bi bi-facebook"> Gopro</i>
+          </a>
+          <a href="https://wa.me/2348108659756" target="_blank" rel="noopener noreferrer">
+            <i className="bi bi-whatsapp"> GoproTech</i>
+          </a>
+           <a href="https://x.com/yourusername" target="_blank" rel="noopener noreferrer">
+            <i className="bi bi-twitter-x"> GoproTech</i>
           </a>
 
-          <a
-            href="https://wa.me/2348108659756"
-            target="_blank"
-            rel="noopener noreferrer"
-           >
-            <i className="bi bi-whatsapp"></i>
+          <a href="https://tiktok.com/@yourusername" target="_blank" rel="noopener noreferrer">
+            <i className="bi bi-tiktok"> Gopro</i>
           </a>
-
-          <a
-            href="https://x.com/yourusername"
-            target="_blank"
-            rel="noopener noreferrer"
-           >
-           <i className="bi bi-twitter-x"></i>
+          <a href="https://www.linkedin.com/company/goprotech-limited/?viewAsMember=true" target="_blank" rel="noopener noreferrer">
+            <i className="bi bi-linkedin"> GoproTech</i>
           </a>
-
-          <a
-            href="https://tiktok.com/@yourusername"
-            target="_blank"
-            rel="noopener noreferrer"
-           >
-           <i className="bi bi-tiktok"></i>
-          </a>
-          
-          <a
-            href="https://www.linkedin.com/company/goprotech-limited/?viewAsMember=true"
-            target="_blank"
-            rel="noopener noreferrer"
-           >
-            <i className="bi bi-linkedin"></i>
-          </a>
-        
-          <p>Stay updated with the GoproTech technology</p>
-          <p>innovations and solution</p>
+          <p>Stay updated with the latest</p>
+          <p>GoProTech innovations and solutions.</p>
         </div>
 
         <div className="col">
           <h2>Contact</h2>
-          <p><strong>Address:</strong>562 Eha-lumona Road, Street 32, Agbamere</p>
-          <p><strong>Phone:</strong>+123 8108659756 /(or) +123 7010323003</p>
-          <p><strong>Hours:</strong>10:00 - 18:00, Mon - Sat</p>
+          <p><strong>Address:</strong> 562 Eha-lumona Road, Street 32, Agbamere</p>
+          <p><strong>Phone:</strong> +234 8108659756 / +234 7010323003</p>
+          <p><strong>Hours:</strong> 10:00 - 18:00, Mon - Sat</p>
         </div>
 
         <div className="copyright">
           <p>Gopro-tech</p>
-         <p>@ 2026, GOPRO-TECH | LEARN * BUILD * INNOVATION</p>
+          <p>@ 2026, GOPRO-TECH | LEARN * BUILD * INNOVATION</p>
         </div>
       </footer>
     </div>
-  )
-}
+  );
+};

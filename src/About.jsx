@@ -2,152 +2,158 @@ import img2 from "./image/img-3.jpg";
 import img4 from "./image/img-4.jpg";
 import img5 from "./image/img-5.jpg";
 import img6 from "./image/img-6.jpg";
-
 import imgq from "./image/img-q.jpg";
+import { Link } from "react-router-dom";
+import "./about.css";
+
 export const About = () => {
   return (
-    <div className="whole">
-     
-
-      <div className="pic">
-       <img src={imgq} alt="GoPro" />
-        <div className="pic-dev">
-          <h1>Who we are?</h1>
-          <h2>Gopro-tech.</h2>
-          <h5>GoPro Tech is a technologydriven platform dedicated to empowering individuals with the skills and knowledge needed to succed in the digital world. We provide pactical learning experience, hands-on projects and expert guidiance to help aspiring delevopers grow with confidence </h5>
-          <br />
-          <h5>Our goal is to make technology education simple, accesible, and engaging for everyone, regardless of their background or experience level</h5>
-          <marquee bgcolor="#ccc" loop="-1" scrollamount="5"  width="100%" >CODE ALONG WITH GOPROTECH, WE GIVE THE BEST</marquee>
-        </div>
-      </div>
-       
-        <div className="Rev">
-        <h1>Our Vision</h1>
-        <h5>To become a leading technology learning platform that inspires an empoers the next genertion of developers, innovators, and digital creators</h5>
-      </div>
-
-
-      <div className="excel-1">
-        <h1>Our Core Value</h1>
-        <h5>What we produce in the compny</h5>
-        <div className="excel">
-          <div className="excel-ex">
-            <h2>Excellence</h2>
-            <p>We are committed to dlivering high-quality education, resources, and support that help learners achieve their goals and reach their full potential.</p>
-          </div>
-          <div  className="excel-ex">
-            <h2>Collaboration</h2>
-            <p>We believe that lerning is stronger when people work together, share knowledge, and support one nanother in their growth journey</p>
-          </div>
-          <div  className="excel-ex">
-            <h2>Continuos Learning</h2>
-            <p>Technology evolves every dy, and we encourage a mindset of lifelong learning, curiosity, and contant improvement to stay ahead in the digital world</p>
-          </div>
-          <div  className="excel-ex">
-            <h2>Innovation</h2>
-            <p>We embrace creativity and continuously explore new technologies an ideas to provide moder, effective, and engaing learning experience four community.</p>
+    <div className="about-page page-shell">
+      <section className="about-hero">
+        <div className="about-hero-copy">
+          <span className="section-label">About GoProTech</span>
+          <h1>We build confident tech learners and modern digital professionals.</h1>
+          <p>
+            GoProTech helps students, founders, and teams turn curiosity into real
+            capability through practical learning, strong mentorship, and project-based training.
+          </p>
+          <div className="hero-actions">
+            <Link to="/service" className="btn">Explore Programs</Link>
+            <Link to="/contact" className="button-2">Contact Us</Link>
           </div>
         </div>
-      </div>
+        <div className="about-hero-card">
+          <img src={imgq} alt="GoProTech team and learning environment" />
+        </div>
+      </section>
 
-      <div className="about-general">
-        <h1>Leadership Team</h1>
-        <p>Meet the exports driving Gopr-Tech</p>
-        <div className="card-ocontiner">
+      <section className="about-stats">
+        <div className="stat-card">
+          <h3>10+</h3>
+          <p>Specialized learning tracks</p>
+        </div>
+        <div className="stat-card">
+          <h3>100%</h3>
+          <p>Practical and mentoring-driven</p>
+        </div>
+        <div className="stat-card">
+          <h3>24/7</h3>
+          <p>Community and support access</p>
+        </div>
+      </section>
 
-          <div className="text">
-            <h1>Desmond</h1>
-          </div>
-            
-          <div className="text-1">
-           <h1>Michelle</h1>
-          </div>
+      <section className="about-grid">
+        <div className="about-panel">
+          <h2>Our Mission</h2>
+          <p>
+            To make technology education accessible, structured, and inspiring for everyone who
+            wants to grow in the digital economy.
+          </p>
+        </div>
+        <div className="about-panel">
+          <h2>Our Vision</h2>
+          <p>
+            To become a trusted technology learning partner that empowers the next generation of
+            creators, developers, and business leaders.
+          </p>
+        </div>
+      </section>
 
-          <div  className="text-2">
-           <h1>EZE</h1>
+      <section className="about-values">
+        <h2>Our Core Values</h2>
+        <div className="about-values-grid">
+          <div className="about-panel">
+            <h3>Excellence</h3>
+            <p>We deliver high-quality training and support that helps learners reach their goals.</p>
           </div>
-  
-          <div className="text">
-            <h1>CJ</h1>
+          <div className="about-panel">
+            <h3>Collaboration</h3>
+            <p>We believe learning grows stronger when knowledge is shared and applied together.</p>
+          </div>
+          <div className="about-panel">
+            <h3>Innovation</h3>
+            <p>We stay current with modern tools and solutions to keep our community future-ready.</p>
+          </div>
+          <div className="about-panel">
+            <h3>Continuous Growth</h3>
+            <p>We encourage curiosity, self-improvement, and lifelong learning in every step.</p>
           </div>
         </div>
-      </div>
-      
-      <footer >
+      </section>
+
+      <section className="about-team">
+        <h2>Meet the Team</h2>
+        <div className="team-grid">
+          <div className="team-card" style={{ backgroundImage: `url(${img5})` }}>
+            <h3>Desmond</h3>
+            <p>Lead Instructor</p>
+          </div>
+          <div className="team-card" style={{ backgroundImage: `url(${img4})` }}>
+            <h3>Michelle</h3>
+            <p>Program Designer</p>
+          </div>
+          <div className="team-card" style={{ backgroundImage: `url(${img2})` }}>
+            <h3>Eze</h3>
+            <p>Technology Mentor</p>
+          </div>
+          <div className="team-card" style={{ backgroundImage: `url(${img6})` }}>
+            <h3>CJ</h3>
+            <p>Community Lead</p>
+          </div>
+        </div>
+      </section>
+
+      <footer className="site-footer">
         <div className="col">
           <h2>GoproTech</h2>
-          <p>We coonect with other techies world wide</p>
-          <p>To learn more and resolve issues</p>
+          <p>We connect learners, founders, and teams with practical tech education and digital solutions.</p>
+          <p>Build your next skill with confidence.</p>
         </div>
 
-         <div className="col">
-         <h2>About</h2>
-         <a href="#">About us</a>
-         <a href="#">Delivery Information</a>
-         <a href="#">Privacy Policy</a>
-         <a href="#">Terms & Condintions</a>
-         <a href="#">Contact us</a>
+        <div className="col">
+          <h2>About</h2>
+          <Link to="/about">About us</Link>
+          <a href="#">Delivery Information</a>
+          <a href="#">Privacy Policy</a>
+          <a href="#">Terms & Condintions</a>
+          <Link to="/service">Our Programs</Link>
+          <Link to="/contact">Contact us</Link>
         </div>
 
-        <div className="follow">
-          <h2>follow us</h2>
-          <a
-            href="https:/web.facebook.com/profile.php?id=61567600501806"
-            target="_blank"
-            rel="noopener noreferrer"
-           >
-            <i className="bi bi-facebook"></i>
+        <div className="col">
+          <h2>Follow us</h2>
+          <a href="https://web.facebook.com/profile.php?id=61567600501806" target="_blank" rel="noopener noreferrer">
+            <i className="bi bi-facebook"> Gopro</i>
+          </a>
+          <a href="https://wa.me/2348108659756" target="_blank" rel="noopener noreferrer">
+            <i className="bi bi-whatsapp"> GoproTech</i>
+          </a>
+           <a href="https://x.com/yourusername" target="_blank" rel="noopener noreferrer">
+            <i className="bi bi-twitter-x"> GoproTech</i>
           </a>
 
-          <a
-            href="https://wa.me/2348108659756"
-            target="_blank"
-            rel="noopener noreferrer"
-           >
-            <i className="bi bi-whatsapp"></i>
+          <a href="https://tiktok.com/@yourusername" target="_blank" rel="noopener noreferrer">
+            <i className="bi bi-tiktok"> Gopro</i>
           </a>
-
-          <a
-            href="https://x.com/yourusername"
-            target="_blank"
-            rel="noopener noreferrer"
-           >
-           <i className="bi bi-twitter-x"></i>
+          <a href="https://www.linkedin.com/company/goprotech-limited/?viewAsMember=true" target="_blank" rel="noopener noreferrer">
+            <i className="bi bi-linkedin"> GoproTech</i>
           </a>
-
-          <a
-            href="https://tiktok.com/@yourusername"
-            target="_blank"
-            rel="noopener noreferrer"
-           >
-           <i className="bi bi-tiktok"></i>
-          </a>
-          
-          <a
-            href="https://www.linkedin.com/company/goprotech-limited/?viewAsMember=true"
-            target="_blank"
-            rel="noopener noreferrer"
-           >
-            <i className="bi bi-linkedin"></i>
-          </a>
-        
-          <p>Stay updated with the GoproTech technology</p>
-          <p>innovations and solution</p>
+          <p>Stay updated with the latest</p>
+          <p>GoProTech innovations and solutions.</p>
         </div>
 
         <div className="col">
           <h2>Contact</h2>
-          <p><strong>Address:</strong>562 Eha-lumona Road, Street 32, Agbamere</p>
-          <p><strong>Phone:</strong>+123 8108659756 /(or) +123 7010323003</p>
-          <p><strong>Hours:</strong>10:00 - 18:00, Mon - Sat</p>
+          <p><strong>Address:</strong> 562 Eha-lumona Road, Street 32, Agbamere</p>
+          <p><strong>Phone:</strong> +234 8108659756 / +234 7010323003</p>
+          <p><strong>Hours:</strong> 10:00 - 18:00, Mon - Sat</p>
         </div>
 
         <div className="copyright">
           <p>Gopro-tech</p>
-         <p>@ 2026, GOPRO-TECH | LEARN * BUILD * INNOVATION</p>
+          <p>@ 2026, GOPRO-TECH | LEARN * BUILD * INNOVATION</p>
         </div>
       </footer>
     </div>
-  )
-}
-
+  );
+};
