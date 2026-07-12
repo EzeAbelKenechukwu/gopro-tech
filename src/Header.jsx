@@ -54,13 +54,13 @@ export const Header = () => {
 
       {/* Mobile Menu */}
       {isMobile && isOpen && (
-        <ul className="mobileNavbar">
-          <li><Link to="/">Home</Link></li>
-          <li><Link to="/about">About</Link></li>
-          <li><Link to="/service">Service</Link></li>
-          <li><Link to="/contact">Contact</Link></li>
-          <button>Login</button>
-        </ul>
+      <ul className="mobileNavbar" onClick={closeMenu}>
+        <li><Link to="/">Home</Link></li>
+        <li><Link to="/about">About</Link></li>
+        <li><Link to="/service">Service</Link></li>
+        <li><Link to="/contact">Contact</Link></li>
+        <li><button>Login</button></li>
+      </ul>
       )}
     </div>
   );
