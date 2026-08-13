@@ -66,7 +66,7 @@ export const Contact = () => {
           <a href="https://web.facebook.com/profile.php?id=61567600501806" target="_blank" rel="noopener noreferrer">
             <i className="bi bi-facebook"> Gopro</i>
           </a>
-          <a href="https://wa.me/2348108659756" target="_blank" rel="noopener noreferrer">
+          <a href="https://wa.me/2347059213866" target="_blank" rel="noopener noreferrer">
             <i className="bi bi-whatsapp"> GoproTech</i>
           </a>
            <a href="https://x.com/yourusername" target="_blank" rel="noopener noreferrer">
@@ -85,8 +85,8 @@ export const Contact = () => {
 
         <div className="col">
           <h2>Contact</h2>
-          <p><strong>Address:</strong> 562 Eha-lumona Road, Street 32, Agbamere</p>
-          <p><strong>Phone:</strong> +234 8108659756 / +234 7010323003</p>
+          <p><strong>Address:</strong>  Opposite St.Michael's Parish, Agbamere, Eha-lumona, Nsukka, Enugu State, Nigeria</p>
+          <p><strong>Phone:</strong> +234 7059213866 / +234 9123230593</p>
           <p><strong>Hours:</strong> 10:00 - 18:00, Mon - Sat</p>
         </div>
 

@@ -1,6 +1,4 @@
-.about-page {
-  padding: 0 30px 40px;
-}
+
 
 .section-label {
   display: inline-block;
@@ -20,7 +18,7 @@
   grid-template-columns: 1.1fr 0.9fr;
   gap: 2rem;
   align-items: center;
-  padding: 2rem 0 1rem;
+  padding: 10px 200px;
 }
 
 .about-hero-copy h1 {
@@ -53,7 +51,7 @@
 }
 
 .btn {
-  background: linear-gradient(135deg, #368ca7, #3da7c4);
+  background: linear-gradient(135deg, #243C9B, #3da7c4);
   color: #fff;
   box-shadow: 0 8px 20px rgba(0, 0, 0, 0.16);
 }
@@ -83,6 +81,7 @@
   grid-template-columns: repeat(3, minmax(0, 1fr));
   gap: 1rem;
   margin: 1.5rem 0 1.2rem;
+   padding: 10px 200px;
 }
 
 .stat-card,
@@ -94,6 +93,8 @@
   border: 1px solid #e5ecef;
   box-shadow: 0 10px 24px rgba(15, 23, 42, 0.06);
 }
+
+
 
 .stat-card h3 {
   margin-bottom: 0.4rem;
@@ -112,14 +113,15 @@
   grid-template-columns: repeat(2, minmax(0, 1fr));
   gap: 1rem;
   margin: 1.25rem 0 1.5rem;
+  padding: 10px 200px;
 }
 .about-values{
-  background-color: #327490;
+  background-color: #243;
   padding: 1.5rem 1rem;
 }
 .about-values h2,
 .about-team h2 {
-  color: #0f172a;
+  color: #FFFF;
   margin-bottom: 0.7rem;
 }
 
@@ -132,6 +134,7 @@
   grid-template-columns: repeat(4, minmax(0, 1fr));
   gap: 1rem;
   margin-top: 1rem;
+  padding: 10px;
 }
 
 .team-card {

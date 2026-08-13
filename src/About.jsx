@@ -1,8 +1,9 @@
 import img2 from "./image/img-3.jpg";
 import img4 from "./image/img-4.jpg";
-import img5 from "./image/img-5.jpg";
+import imgd from "./image/img-d.jpeg";
 import img6 from "./image/img-6.jpg";
-import imgq from "./image/img-q.jpg";
+import img88 from "./image/img-88.jpg";
+import imgc from "./image/img-c.jpg";
 import { Link } from "react-router-dom";
 import "./about.css";
 
@@ -23,7 +24,7 @@ export const About = () => {
           </div>
         </div>
         <div className="about-hero-card">
-          <img src={imgq} alt="GoProTech team and learning environment" />
+          <img src={imgc} alt="GoProTech team and learning environment" />
         </div>
       </section>
 
@@ -84,7 +85,7 @@ export const About = () => {
       <section className="about-team">
         <h2>Meet the Team</h2>
         <div className="team-grid">
-          <div className="team-card" style={{ backgroundImage: `url(${img5})` }}>
+          <div className="team-card" style={{ backgroundImage: `url(${imgd})` }}>
             <h3>Desmond</h3>
             <p>Lead Instructor</p>
           </div>
@@ -96,8 +97,8 @@ export const About = () => {
             <h3>Eze</h3>
             <p>Technology Mentor</p>
           </div>
-          <div className="team-card" style={{ backgroundImage: `url(${img6})` }}>
-            <h3>CJ</h3>
+          <div className="team-card" style={{ backgroundImage: `url(${img88})` }}>
+            <h3>Mayor</h3>
             <p>Community Lead</p>
           </div>
         </div>
@@ -125,7 +126,7 @@ export const About = () => {
           <a href="https://web.facebook.com/profile.php?id=61567600501806" target="_blank" rel="noopener noreferrer">
             <i className="bi bi-facebook"> Gopro</i>
           </a>
-          <a href="https://wa.me/2348108659756" target="_blank" rel="noopener noreferrer">
+          <a href="https://wa.me/2347059213866" target="_blank" rel="noopener noreferrer">
             <i className="bi bi-whatsapp"> GoproTech</i>
           </a>
            <a href="https://x.com/yourusername" target="_blank" rel="noopener noreferrer">
@@ -144,8 +145,8 @@ export const About = () => {
 
         <div className="col">
           <h2>Contact</h2>
-          <p><strong>Address:</strong> 562 Eha-lumona Road, Street 32, Agbamere</p>
-          <p><strong>Phone:</strong> +234 8108659756 / +234 7010323003</p>
+          <p><strong>Address:</strong> Opposite St.Michael's Parish, Agbamere, Eha-lumona, Nsukka, Enugu State, Nigeria</p>
+          <p><strong>Phone:</strong>  +234 7059213866 / +234 9123230593</p>
           <p><strong>Hours:</strong> 10:00 - 18:00, Mon - Sat</p>
         </div>
 

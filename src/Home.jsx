@@ -1,6 +1,10 @@
 import img4 from "./image/img-4.jpg";
 import img6 from "./image/img-6.jpg";
+import img8 from "./image/img-8.jpg";
+import img44 from "./image/img-44.jpg";
+import imgq from "./image/img-q.jpg";
 import img1 from "./image/img-1.jpg";
+import imgo from "./image/img-o.jpg"
 import { Link } from "react-router-dom";
 import "./home.css";
 
@@ -28,7 +32,7 @@ export const Home = () => {
         </div>
 
         <div className="hero-visual">
-          <img src={img1} alt="GoProTech team and technology showcase" />
+          <img src={imgq} alt="GoProTech team and technology showcase" />
         </div>
       </section>
 
@@ -124,7 +128,7 @@ export const Home = () => {
         </div>
         <div className="rate-container">
           <div>
-            <img src={img4} alt="Happy learner testimonial" />
+            <img src={img8} alt="Happy learner testimonial" />
             <ul>
               <i className="bi bi-star-fill"></i>
               <i className="bi bi-star-fill"></i>
@@ -137,11 +141,11 @@ export const Home = () => {
               enjoyable. The lessons are clear and easy to follow."
             </p>
             <p>
-              By <strong>Eze</strong>
+              By <strong>Mmeso</strong>
             </p>
           </div>
           <div>
-            <img src={img1} alt="Student portfolio success" />
+            <img src={imgo} alt="Student portfolio success" />
             <ul>
               <i className="bi bi-star-fill"></i>
               <i className="bi bi-star-fill"></i>
@@ -154,11 +158,11 @@ export const Home = () => {
               build confidence in my coding skills."
             </p>
             <p>
-              By <strong>Desmond</strong>
+              By <strong>Osita</strong>
             </p>
           </div>
           <div>
-            <img src={img6} alt="Community mentorship experience" />
+            <img src={img44} alt="Community mentorship experience" />
             <ul>
               <i className="bi bi-star-fill"></i>
               <i className="bi bi-star-fill"></i>
@@ -171,7 +175,7 @@ export const Home = () => {
               mentorship, and resources have strengthened my journey."
             </p>
             <p>
-              By <strong>DI</strong>
+              By <strong>Dimma</strong>
             </p>
           </div>
         </div>
@@ -186,7 +190,7 @@ export const Home = () => {
         </h5>
         <div className="ready-link">
           <Link to="/about">
-            <button className="button">Start Free Trial</button>
+            <button className="button">Explore</button>
           </Link>
           <Link to="/service">
             <button className="button-2">Learn More</button>
@@ -217,7 +221,7 @@ export const Home = () => {
             <i className="bi bi-facebook"> Gopro</i>
           </a>
 
-          <a href="https://wa.me/2348108659756" target="_blank" rel="noopener noreferrer">
+          <a href="https://wa.me/2347059213866" target="_blank" rel="noopener noreferrer">
             <i className="bi bi-whatsapp"> GoproTech</i>
           </a>
 
@@ -239,8 +243,8 @@ export const Home = () => {
 
         <div className="col">
           <h2>Contact</h2>
-          <p><strong>Address:</strong>562 Eha-lumona Road, Street 32, Agbamere</p>
-          <p><strong>Phone:</strong>+123 8108659756 /(or) +123 7010323003</p>
+          <p><strong>Address:</strong> Opposite St.Michael's Parish, Agbamere, Eha-lumona, Nsukka, Enugu State, Nigeria</p>
+          <p><strong>Phone:</strong> +234 7059213866 / +234 9123230593</p>
           <p><strong>Hours:</strong>10:00 - 18:00, Mon - Sat</p>
         </div>
 
@@ -252,7 +256,7 @@ export const Home = () => {
 
       <div className="whatsapp-container">
         <div className="chat-text">Need help? Chat with us!</div>
-        <a href="https://wa.me/2348108659756" target="_blank" rel="noopener noreferrer" className="whatsapp-btn">
+        <a href="https://wa.me/2347059213866" target="_blank" rel="noopener noreferrer" className="whatsapp-btn">
           <i className="bi bi-whatsapp"></i>
         </a>
       </div>
